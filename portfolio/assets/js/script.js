@@ -1,11 +1,11 @@
-// Skill bar animation on scroll
+// Optional: smooth fade-in animations
 window.addEventListener('scroll', () => {
-    const skills = document.querySelectorAll('.skill-level');
-    skills.forEach(skill => {
-        const sectionTop = skill.parentElement.parentElement.offsetTop;
-        const scrollY = window.scrollY + window.innerHeight - 100;
-        if(scrollY > sectionTop) {
-            skill.style.width = skill.getAttribute('data-level');
+    const fadeElements = document.querySelectorAll('section, .project-card, .service-card');
+    fadeElements.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if(rect.top < window.innerHeight - 100) {
+            el.style.opacity = 1;
+            el.style.transform = 'translateY(0)';
         }
     });
 });
