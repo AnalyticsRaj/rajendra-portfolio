@@ -8,87 +8,101 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Hero Section -->
-    <header id="hero">
-        <div class="hero-content">
-            <h1>Rajendra Singh</h1>
-            <p>Data Analyst | Power BI | Python | SQL | Excel | Meta Ads</p>
-            <a href="#projects" class="cta-btn">See My Work</a>
-        </div>
-    </header>
+    <!-- NAVIGATION -->
+    <nav>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <div class="about-container">
-            <img src="assets/images/avatar.png" alt="Rajendra Singh">
-            <div class="about-text">
-                <p>Hello! I am Rajendra Singh, a passionate data analyst. I work with Power BI, Python (NumPy, Pandas, Matplotlib), SQL, Excel, Tally, and Meta Ads to create actionable insights and beautiful dashboards.</p>
-                <marquee behavior="scroll" direction="left">Python &nbsp; | &nbsp; SQL &nbsp; | &nbsp; Power BI &nbsp; | &nbsp; Excel &nbsp; | &nbsp; Tally &nbsp; | &nbsp; Meta Ads &nbsp; | &nbsp; Data Visualization</marquee>
+    <!-- HERO SECTION -->
+    <section id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hello, It's Me <span>Rajendra Singh</span></h1>
+                <p>And I'm a <span>Data Analyst & Power BI Specialist</span></p>
+                <div class="hero-socials">
+                    <a href="#">🐦</a>
+                    <a href="#">🔗</a>
+                    <a href="#">💼</a>
+                    <a href="#">📧</a>
+                </div>
+                <a href="#contact" class="btn">Download CV</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/avatar.png" alt="Rajendra Singh">
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skill">
-            <span>Python (Pandas, NumPy, Matplotlib)</span>
-            <div class="skill-bar"><div class="skill-level" data-level="90%"></div></div>
-        </div>
-        <div class="skill">
-            <span>SQL</span>
-            <div class="skill-bar"><div class="skill-level" data-level="80%"></div></div>
-        </div>
-        <div class="skill">
-            <span>Power BI</span>
-            <div class="skill-bar"><div class="skill-level" data-level="85%"></div></div>
-        </div>
-        <div class="skill">
-            <span>Excel & Tally</span>
-            <div class="skill-bar"><div class="skill-level" data-level="95%"></div></div>
-        </div>
-        <div class="skill">
-            <span>Meta Ads</span>
-            <div class="skill-bar"><div class="skill-level" data-level="75%"></div></div>
-        </div>
-        <div class="skill">
-            <span>Data Visualization</span>
-            <div class="skill-bar"><div class="skill-level" data-level="85%"></div></div>
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="assets/images/avatar.png" alt="Rajendra Singh">
+            </div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hi! I'm Rajendra Singh, a passionate data analyst. I work with Power BI, Python, SQL, Excel, Tally, and Meta Ads to create actionable insights and beautiful dashboards.</p>
+                <a href="#projects" class="btn">See Projects</a>
+            </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- SERVICES -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <h3>Data Analysis</h3>
+                <p>Cleaning, visualizing, and analyzing data using Python and Power BI.</p>
+            </div>
+            <div class="service-card">
+                <h3>Business Reporting</h3>
+                <p>Excel, Power BI dashboards, and automated reporting.</p>
+            </div>
+            <div class="service-card">
+                <h3>Digital Marketing</h3>
+                <p>Meta Ads management, analytics, and marketing insights.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
     <section id="projects">
-        <h2>Projects</h2>
+        <h2>Latest Projects</h2>
         <div class="projects-container">
             <div class="project-card">
                 <img src="assets/images/project1.png" alt="Project 1">
-                <h3>Power BI Sales Dashboard</h3>
-                <p>Interactive sales dashboard using Power BI & Excel data sources.</p>
             </div>
             <div class="project-card">
                 <img src="assets/images/project2.png" alt="Project 2">
-                <h3>Python Data Analysis</h3>
-                <p>Data cleaning and visualization with Pandas and Matplotlib.</p>
             </div>
             <div class="project-card">
                 <img src="assets/images/project3.png" alt="Project 3">
-                <h3>Meta Ads Campaign Analytics</h3>
-                <p>Analysis of Facebook Ads performance using Excel & Python.</p>
+            </div>
+            <div class="project-card">
+                <img src="assets/images/project4.png" alt="Project 4">
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- CONTACT -->
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>Email: your.email@example.com</p>
-        <p>GitHub: <a href="https://github.com/YOUR_USERNAME" target="_blank">github.com/YOUR_USERNAME</a></p>
-        <p>LinkedIn: <a href="#" target="_blank">linkedin.com/in/yourprofile</a></p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
     </section>
 
-    <!-- Footer -->
+    <!-- FOOTER -->
     <footer>
         &copy; 2026 Rajendra Singh. All rights reserved.
     </footer>
