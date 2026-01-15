@@ -1,112 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rajendra Singh | Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajendra Singh | Data Analyst & Ads Specialist</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
-    <!-- NAVIGATION -->
-    <nav>
-        <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#projects">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
 
-    <!-- HERO SECTION -->
-    <section id="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1>Hello, It's Me <span>Rajendra Singh</span></h1>
-                <p>And I'm a <span>Data Analyst & Power BI Specialist</span></p>
-                <div class="hero-socials">
-                    <a href="#">🐦</a>
-                    <a href="#">🔗</a>
-                    <a href="#">💼</a>
-                    <a href="#">📧</a>
-                </div>
-                <a href="#contact" class="btn">Download CV</a>
-            </div>
-            <div class="hero-image">
-                <img src="assets/images/avatar.png" alt="Rajendra Singh">
-            </div>
-        </div>
-    </section>
+<!-- NAVBAR -->
+<nav>
+  <h2>Rajendra</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-    <!-- ABOUT -->
-    <section id="about">
-        <div class="about-container">
-            <div class="about-image">
-                <img src="assets/images/avatar.png" alt="Rajendra Singh">
-            </div>
-            <div class="about-text">
-                <h2>About Me</h2>
-                <p>Hi! I'm Rajendra Singh, a passionate data analyst. I work with Power BI, Python, SQL, Excel, Tally, and Meta Ads to create actionable insights and beautiful dashboards.</p>
-                <a href="#projects" class="btn">See Projects</a>
-            </div>
-        </div>
-    </section>
+<!-- HERO -->
+<section class="hero" id="home">
+  <div>
+    <h1>
+      Data Analyst &<br>
+      <span>Digital Ads Specialist</span>
+    </h1>
 
-    <!-- SERVICES -->
-    <section id="services">
-        <h2>Our Services</h2>
-        <div class="services-container">
-            <div class="service-card">
-                <h3>Data Analysis</h3>
-                <p>Cleaning, visualizing, and analyzing data using Python and Power BI.</p>
-            </div>
-            <div class="service-card">
-                <h3>Business Reporting</h3>
-                <p>Excel, Power BI dashboards, and automated reporting.</p>
-            </div>
-            <div class="service-card">
-                <h3>Digital Marketing</h3>
-                <p>Meta Ads management, analytics, and marketing insights.</p>
-            </div>
-        </div>
-    </section>
+    <p>
+      I help businesses make data-driven decisions using
+      Excel, Python, SQL, Power BI and performance-focused Meta Ads.
+    </p>
 
-    <!-- PROJECTS -->
-    <section id="projects">
-        <h2>Latest Projects</h2>
-        <div class="projects-container">
-            <div class="project-card">
-                <img src="assets/images/project1.png" alt="Project 1">
-            </div>
-            <div class="project-card">
-                <img src="assets/images/project2.png" alt="Project 2">
-            </div>
-            <div class="project-card">
-                <img src="assets/images/project3.png" alt="Project 3">
-            </div>
-            <div class="project-card">
-                <img src="assets/images/project4.png" alt="Project 4">
-            </div>
-        </div>
-    </section>
+    <!-- CTA BUTTONS -->
+    <div class="hero-buttons">
+      <a href="#contact" class="btn primary">Hire for Data Analysis</a>
+      <a href="#contact" class="btn secondary">Hire for Ads Management</a>
+      <a href="#case-studies" class="btn outline">View Case Studies</a>
+    </div>
+  </div>
+</section>
 
-    <!-- CONTACT -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Message" rows="5" required></textarea>
-            <button type="submit" class="btn">Send Message</button>
-        </form>
-    </section>
+<!-- SKILL PROFICIENCY -->
+<section id="skills">
+  <h2 class="title">Skill <span>Proficiency</span></h2>
 
-    <!-- FOOTER -->
-    <footer>
-        &copy; 2026 Rajendra Singh. All rights reserved.
-    </footer>
+  <div class="skill-bars">
 
-    <script src="assets/js/script.js"></script>
+    <div class="skill">
+      <span>Excel</span>
+      <div class="bar">
+        <div class="fill" style="width:90%">90%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <span>Tally</span>
+      <div class="bar">
+        <div class="fill" style="width:85%">85%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <span>Python (Pandas, NumPy, Matplotlib)</span>
+      <div class="bar">
+        <div class="fill" style="width:80%">80%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <span>Power BI</span>
+      <div class="bar">
+        <div class="fill" style="width:85%">85%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <span>SQL</span>
+      <div class="bar">
+        <div class="fill" style="width:75%">75%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <span>Meta Ads</span>
+      <div class="bar">
+        <div class="fill" style="width:80%">80%</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CASE STUDIES PLACEHOLDER -->
+<section id="case-studies">
+  <h2 class="title">Case <span>Studies</span></h2>
+  <p class="center-text">
+    Real-world projects showcasing business problems,
+    data analysis approach, and measurable results.
+  </p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2 class="title">Selected <span>Projects</span></h2>
+
+  <div class="projects">
+    <div class="project">
+      <h3>Excel Sales Dashboard</h3>
+      <p>Automated reporting system reducing manual work by 60%.</p>
+    </div>
+
+    <div class="project">
+      <h3>Power BI Business Report</h3>
+      <p>Interactive dashboards for management decision-making.</p>
+    </div>
+
+    <div class="project">
+      <h3>Meta Ads Lead Campaign</h3>
+      <p>Improved ROAS with optimized audience & creatives.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact">
+  <div class="footer-content">
+
+    <div>
+      <h4>Location</h4>
+      <p>India</p>
+    </div>
+
+    <div>
+      <h4>Availability</h4>
+      <p>Freelance / Full-time</p>
+    </div>
+
+    <div>
+      <h4>Tools Certified In</h4>
+      <p>Excel • Power BI • Meta Ads • SQL</p>
+    </div>
+
+  </div>
+
+  <p class="footer-bottom">
+    © 2026 Rajendra Singh · Data Analyst & Ads Specialist
+  </p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
